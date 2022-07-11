@@ -207,6 +207,7 @@ public class OrderedTests {
 		jse2.executeScript("arguments[0].click();", radioPayment);
 
 		WebElement inputSendOrder = driverChrome.findElement(By.name("sendOrder"));
+
 		// send order button was not clicked to avoid unnecessary spending for this tester
 	}
 }
